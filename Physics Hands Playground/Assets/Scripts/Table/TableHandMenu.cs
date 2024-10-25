@@ -19,7 +19,7 @@ namespace Leap.PhysicalHands.Playground
 
         [SerializeField]
         private Chirality _handToIgnore;
-        private PhysicalHandsManager _physicalHandsManager;
+        private static PhysicalHandsManager _physicalHandsManager;
         private bool _hasIgnored = false;
 
         private bool _facingCamera = false, _grabbingLeft = false, _grabbingRight = false;
@@ -31,7 +31,7 @@ namespace Leap.PhysicalHands.Playground
         [SerializeField]
         private PlayerRecenter _playerRecenter = null;
 
-        private TableManager _currentTable = null;
+        private static TableManager _currentTable = null;
         [SerializeField, Tooltip("Set as null to start in the middle.")]
         private TableManager _startAtTable = null;
 
