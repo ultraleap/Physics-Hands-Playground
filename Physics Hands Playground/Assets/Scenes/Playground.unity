@@ -5781,7 +5781,7 @@ MonoBehaviour:
   _rigidbody: {fileID: 481290139}
   _adjustInertiaTensor: 0
   _inertiaTensor: {x: 1, y: 1, z: 1}
-  _originalInertiaTensor: {x: 0.0068294825, y: 0.0019919646, z: 0.006829481}
+  _originalInertiaTensor: {x: 0.00974051, y: 0.004716157, z: 0.010671154}
   _adjustCenterOfMass: 1
   _centerOfMassOffset: {x: 0, y: -0.025, z: 0}
   _originalCenterOfMass: {x: 0.0059431237, y: -0.0073279324, z: -0.00011320288}
@@ -11689,6 +11689,10 @@ PrefabInstance:
       value: -0.28137738
       objectReference: {fileID: 0}
     - target: {fileID: 4092936677283343407, guid: 85bdae4f36eb5b14c9fac95aec79bf2f, type: 3}
+      propertyPath: ScalingSpeedMultiplier
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092936677283343407, guid: 85bdae4f36eb5b14c9fac95aec79bf2f, type: 3}
       propertyPath: LeapHand.PalmPosition.y
       value: -0.13000001
       objectReference: {fileID: 0}
@@ -13653,8 +13657,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1859827064}
     - target: {fileID: 7337961843798470890, guid: 85bdae4f36eb5b14c9fac95aec79bf2f, type: 3}
+      propertyPath: Offsets.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337961843798470890, guid: 85bdae4f36eb5b14c9fac95aec79bf2f, type: 3}
       propertyPath: LeapHand.Arm.Center.y
       value: -0.28137738
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337961843798470890, guid: 85bdae4f36eb5b14c9fac95aec79bf2f, type: 3}
+      propertyPath: Offsets.Array.data[1]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7337961843798470890, guid: 85bdae4f36eb5b14c9fac95aec79bf2f, type: 3}
+      propertyPath: ScalingSpeedMultiplier
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7337961843798470890, guid: 85bdae4f36eb5b14c9fac95aec79bf2f, type: 3}
       propertyPath: LeapHand.PalmPosition.y
